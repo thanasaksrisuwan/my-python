@@ -30,7 +30,7 @@ my_flask_app/
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/my_flask_app.git
+    git clone https://github.com/thanasaksrisuwan/my_flask_app.git
     cd my_flask_app
     ```
 
