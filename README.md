@@ -65,18 +65,9 @@ http://localhost:5000/
 To analyze text, send a POST request to `/analyze` with a JSON body containing the text to analyze:
 
 ```bash
-curl -X POST -H "Content-Type: application/json" -d '{"text": "OpenAI is a company based in San Francisco."}' http://localhost:5000/analyze
+curl -X POST -H "Content-Type: application/json" -d '{"text": "Apple Inc. is headquartered in Cupertino, California."}' http://localhost:5000/analyze
 
 
 Expected Response
 
-[
-    {
-        "text": "OpenAI",
-        "label": "ORG"
-    },
-    {
-        "text": "San Francisco",
-        "label": "GPE"
-    }
-]
+[{"label":"ORG","text":"Apple Inc."},{"label":"GPE","text":"Cupertino"},{"label":"GPE","text":"California"}]
