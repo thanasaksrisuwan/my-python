@@ -10,9 +10,13 @@ This project is a simple Flask API that utilizes the spaCy NLP library to analyz
 ## Project Structure
 
 my_flask_app/
+
 ├── app.py
+
 ├── dependencies.txt
+
 └── Containerfile
+
 
 - `app.py`: The main Flask application file.
 - `dependencies.txt`: List of Python dependencies.
